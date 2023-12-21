@@ -4,6 +4,7 @@ using System.Linq;
 using ClosedXML.Excel;
 using CsvHelper.Excel.Specs.Common;
 using FluentAssertions;
+using PKCsvHelper.Excel;
 using Xunit;
 
 namespace CsvHelper.Excel.Specs.Parser
