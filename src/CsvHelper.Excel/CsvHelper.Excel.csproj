@@ -1,17 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Description>An implementation of ICsvParser and ICsvSerializer from CsvHelper that reads and writes using the ClosedXml library.</Description>
-    <AssemblyTitle>CsvHelper for Excel</AssemblyTitle>
-    <VersionPrefix>27.2.2</VersionPrefix>    
-    <Authors>Chris Young</Authors>
+    <Description>An implementation of ICsvParser and ICsvSerializer from CsvHelper that reads and writes using the ClosedXml library.
+	Modified by P/K Solutions to use protected visibility rather than private to allow extension
+    </Description>
+    <AssemblyTitle>Extensible CsvHelper for Excel</AssemblyTitle>
+    <VersionPrefix>27.2.3</VersionPrefix>    
+    <Authors>Richard Kramer</Authors>
     <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
     <DebugType>portable</DebugType>
-    <AssemblyName>CsvHelper.Excel</AssemblyName>
+    <AssemblyName>PKCsvHelper.Excel</AssemblyName>
     <OutputType>Library</OutputType>
-    <PackageId>CsvHelper.Excel.Core</PackageId>
-    <PackageTags>CSV;CSVHelper;Excel;ClosedXML</PackageTags>
-    <PackageProjectUrl>https://github.com/youngcm2/CsvHelper.Excel</PackageProjectUrl>
-    <PackageLicenseUrl>https://github.com/youngcm2/CsvHelper.Excel/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageId>PKCsvHelper.Excel.Core</PackageId>
+    <PackageTags>CSV;PKCSVHelper;Excel;ClosedXML</PackageTags>
+    <PackageProjectUrl>https://github.com/rkramer1964/CsvHelper.Excel</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/rkramer1964/CsvHelper.Excel/blob/master/LICENSE</PackageLicenseUrl>
     <PackageOutputPath>./nupkg</PackageOutputPath>
   </PropertyGroup> 
   <ItemGroup>

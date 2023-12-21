@@ -3,6 +3,7 @@ using System.IO;
 using ClosedXML.Excel;
 using CsvHelper.Excel.Specs.Common;
 using FluentAssertions;
+using PKCsvHelper.Excel;
 using Xunit;
 using Xunit.Abstractions;
 

@@ -1,6 +1,7 @@
 using System.Globalization;
 using ClosedXML.Excel;
 using CsvHelper.Excel.Specs.Common;
+using PKCsvHelper.Excel;
 using Xunit.Abstractions;
 
 namespace CsvHelper.Excel.Specs.Writer

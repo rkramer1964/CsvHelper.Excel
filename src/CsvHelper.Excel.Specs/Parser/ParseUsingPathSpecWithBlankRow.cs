@@ -1,6 +1,7 @@
 using System.Globalization;
 using System.Linq;
 using CsvHelper.Configuration;
+using PKCsvHelper.Excel;
 
 namespace CsvHelper.Excel.Specs.Parser
 {

@@ -1,3 +1,5 @@
+using PKCsvHelper.Excel;
+
 namespace CsvHelper.Excel.Specs.Parser
 {
     public class ParseUsingPathSpecEmptyWithNoHeaders : EmptySpecWithNoHeaders
